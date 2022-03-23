@@ -17,7 +17,7 @@ body {
 }
 
 .section-title {
-  color: #2ddf5c;
+  color: #252145;
   text-align: center;
 }
 
@@ -33,6 +33,64 @@ body {
   display: inline-block;
   width: 30%;
   vertical-align: middle;
+  border-radius: 4px;
+}
+
+.plan--highlighted {
+  background: hsl(224, 46%, 57%);
+  color: whitesmoke;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan__annotation {
+  background: whitesmoke;
+  color: #252145;
+  padding: 8px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.plan__title {
+  color: #252145;
+}
+
+.plan__price {
+  color: rgb(112, 94, 94);
+}
+
+.plan--highlighted .plan__price {
+  color: wheat;
+}
+
+.plan__items {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.plan__items li {
+  margin: 8px 0;
+}
+
+.btn {
+  background: #ada8d3;
+  font: inherit;
+  border: 1.5px solid #252145;
+  padding: 6px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  color: whitesmoke;
+  background: #252145;
+  border: 1.5px solid #ada8d3;
+}
+
+.btn:focus {
+  outline: none;
 }
 
 /* HEADER */
@@ -49,7 +107,7 @@ body {
 }
 
 .main-header__brand {
-  color: #0e4f1f;
+  color: #252145;
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
@@ -74,7 +132,7 @@ body {
 }
 
 .main-nav__item a {
-  color: #0e4f1f;
+  color: #252145;
   text-decoration: none;
   font-weight: bold;
   padding: 3px;
@@ -88,7 +146,7 @@ body {
 
 .main-nav__item--cta a {
   color: whitesmoke;
-  background-color: rgb(252, 26, 26);
+  background-color: hsl(224, 46%, 57%);
   padding: 8px 16px;
   border-radius: 8px;
 }
